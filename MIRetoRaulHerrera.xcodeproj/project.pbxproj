@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0C1D7B1C666C5A003B984A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C1D7A1C666C5A003B984A /* AppDelegate.swift */; };
+		FA0C1D7D1C666C5A003B984A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C1D7C1C666C5A003B984A /* ViewController.swift */; };
+		FA0C1D801C666C5A003B984A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0C1D7E1C666C5A003B984A /* Main.storyboard */; };
+		FA0C1D821C666C5A003B984A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0C1D811C666C5A003B984A /* Assets.xcassets */; };
+		FA0C1D851C666C5A003B984A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0C1D831C666C5A003B984A /* LaunchScreen.storyboard */; };
+		FA0C1D901C666C5A003B984A /* MIRetoRaulHerreraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C1D8F1C666C5A003B984A /* MIRetoRaulHerreraTests.swift */; };
+		FA0C1D9B1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C1D9A1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0C1D8C1C666C5A003B984A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0C1D6F1C666C5A003B984A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0C1D761C666C5A003B984A;
+			remoteInfo = MIRetoRaulHerrera;
+		};
+		FA0C1D971C666C5A003B984A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0C1D6F1C666C5A003B984A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0C1D761C666C5A003B984A;
+			remoteInfo = MIRetoRaulHerrera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0C1D771C666C5A003B984A /* MIRetoRaulHerrera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIRetoRaulHerrera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C1D7A1C666C5A003B984A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0C1D7C1C666C5A003B984A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA0C1D7F1C666C5A003B984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0C1D811C666C5A003B984A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0C1D841C666C5A003B984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0C1D861C666C5A003B984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0C1D8B1C666C5A003B984A /* MIRetoRaulHerreraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIRetoRaulHerreraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C1D8F1C666C5A003B984A /* MIRetoRaulHerreraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIRetoRaulHerreraTests.swift; sourceTree = "<group>"; };
+		FA0C1D911C666C5A003B984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0C1D961C666C5A003B984A /* MIRetoRaulHerreraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIRetoRaulHerreraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C1D9A1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIRetoRaulHerreraUITests.swift; sourceTree = "<group>"; };
+		FA0C1D9C1C666C5A003B984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0C1D741C666C5A003B984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D881C666C5A003B984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D931C666C5A003B984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0C1D6E1C666C5A003B984A = {
+			isa = PBXGroup;
+			children = (
+				FA0C1D791C666C5A003B984A /* MIRetoRaulHerrera */,
+				FA0C1D8E1C666C5A003B984A /* MIRetoRaulHerreraTests */,
+				FA0C1D991C666C5A003B984A /* MIRetoRaulHerreraUITests */,
+				FA0C1D781C666C5A003B984A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0C1D781C666C5A003B984A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C1D771C666C5A003B984A /* MIRetoRaulHerrera.app */,
+				FA0C1D8B1C666C5A003B984A /* MIRetoRaulHerreraTests.xctest */,
+				FA0C1D961C666C5A003B984A /* MIRetoRaulHerreraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0C1D791C666C5A003B984A /* MIRetoRaulHerrera */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C1D7A1C666C5A003B984A /* AppDelegate.swift */,
+				FA0C1D7C1C666C5A003B984A /* ViewController.swift */,
+				FA0C1D7E1C666C5A003B984A /* Main.storyboard */,
+				FA0C1D811C666C5A003B984A /* Assets.xcassets */,
+				FA0C1D831C666C5A003B984A /* LaunchScreen.storyboard */,
+				FA0C1D861C666C5A003B984A /* Info.plist */,
+			);
+			path = MIRetoRaulHerrera;
+			sourceTree = "<group>";
+		};
+		FA0C1D8E1C666C5A003B984A /* MIRetoRaulHerreraTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C1D8F1C666C5A003B984A /* MIRetoRaulHerreraTests.swift */,
+				FA0C1D911C666C5A003B984A /* Info.plist */,
+			);
+			path = MIRetoRaulHerreraTests;
+			sourceTree = "<group>";
+		};
+		FA0C1D991C666C5A003B984A /* MIRetoRaulHerreraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C1D9A1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift */,
+				FA0C1D9C1C666C5A003B984A /* Info.plist */,
+			);
+			path = MIRetoRaulHerreraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0C1D761C666C5A003B984A /* MIRetoRaulHerrera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C1D9F1C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerrera" */;
+			buildPhases = (
+				FA0C1D731C666C5A003B984A /* Sources */,
+				FA0C1D741C666C5A003B984A /* Frameworks */,
+				FA0C1D751C666C5A003B984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIRetoRaulHerrera;
+			productName = MIRetoRaulHerrera;
+			productReference = FA0C1D771C666C5A003B984A /* MIRetoRaulHerrera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0C1D8A1C666C5A003B984A /* MIRetoRaulHerreraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C1DA21C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerreraTests" */;
+			buildPhases = (
+				FA0C1D871C666C5A003B984A /* Sources */,
+				FA0C1D881C666C5A003B984A /* Frameworks */,
+				FA0C1D891C666C5A003B984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0C1D8D1C666C5A003B984A /* PBXTargetDependency */,
+			);
+			name = MIRetoRaulHerreraTests;
+			productName = MIRetoRaulHerreraTests;
+			productReference = FA0C1D8B1C666C5A003B984A /* MIRetoRaulHerreraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0C1D951C666C5A003B984A /* MIRetoRaulHerreraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C1DA51C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerreraUITests" */;
+			buildPhases = (
+				FA0C1D921C666C5A003B984A /* Sources */,
+				FA0C1D931C666C5A003B984A /* Frameworks */,
+				FA0C1D941C666C5A003B984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0C1D981C666C5A003B984A /* PBXTargetDependency */,
+			);
+			name = MIRetoRaulHerreraUITests;
+			productName = MIRetoRaulHerreraUITests;
+			productReference = FA0C1D961C666C5A003B984A /* MIRetoRaulHerreraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0C1D6F1C666C5A003B984A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "RAUL HERRERA ATRISCO";
+				TargetAttributes = {
+					FA0C1D761C666C5A003B984A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FA0C1D8A1C666C5A003B984A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA0C1D761C666C5A003B984A;
+					};
+					FA0C1D951C666C5A003B984A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA0C1D761C666C5A003B984A;
+					};
+				};
+			};
+			buildConfigurationList = FA0C1D721C666C5A003B984A /* Build configuration list for PBXProject "MIRetoRaulHerrera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0C1D6E1C666C5A003B984A;
+			productRefGroup = FA0C1D781C666C5A003B984A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0C1D761C666C5A003B984A /* MIRetoRaulHerrera */,
+				FA0C1D8A1C666C5A003B984A /* MIRetoRaulHerreraTests */,
+				FA0C1D951C666C5A003B984A /* MIRetoRaulHerreraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0C1D751C666C5A003B984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C1D851C666C5A003B984A /* LaunchScreen.storyboard in Resources */,
+				FA0C1D821C666C5A003B984A /* Assets.xcassets in Resources */,
+				FA0C1D801C666C5A003B984A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D891C666C5A003B984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D941C666C5A003B984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0C1D731C666C5A003B984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C1D7D1C666C5A003B984A /* ViewController.swift in Sources */,
+				FA0C1D7B1C666C5A003B984A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D871C666C5A003B984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C1D901C666C5A003B984A /* MIRetoRaulHerreraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C1D921C666C5A003B984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0C1D9B1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0C1D8D1C666C5A003B984A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0C1D761C666C5A003B984A /* MIRetoRaulHerrera */;
+			targetProxy = FA0C1D8C1C666C5A003B984A /* PBXContainerItemProxy */;
+		};
+		FA0C1D981C666C5A003B984A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0C1D761C666C5A003B984A /* MIRetoRaulHerrera */;
+			targetProxy = FA0C1D971C666C5A003B984A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA0C1D7E1C666C5A003B984A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0C1D7F1C666C5A003B984A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0C1D831C666C5A003B984A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0C1D841C666C5A003B984A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0C1D9D1C666C5A003B984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0C1D9E1C666C5A003B984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0C1DA01C666C5A003B984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIRetoRaulHerrera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerrera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0C1DA11C666C5A003B984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIRetoRaulHerrera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerrera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA0C1DA31C666C5A003B984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MIRetoRaulHerreraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerreraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIRetoRaulHerrera.app/MIRetoRaulHerrera";
+			};
+			name = Debug;
+		};
+		FA0C1DA41C666C5A003B984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MIRetoRaulHerreraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerreraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIRetoRaulHerrera.app/MIRetoRaulHerrera";
+			};
+			name = Release;
+		};
+		FA0C1DA61C666C5A003B984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MIRetoRaulHerreraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerreraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MIRetoRaulHerrera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA0C1DA71C666C5A003B984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MIRetoRaulHerreraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdcdigital.mx.MIRetoRaulHerreraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MIRetoRaulHerrera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0C1D721C666C5A003B984A /* Build configuration list for PBXProject "MIRetoRaulHerrera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C1D9D1C666C5A003B984A /* Debug */,
+				FA0C1D9E1C666C5A003B984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0C1D9F1C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerrera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C1DA01C666C5A003B984A /* Debug */,
+				FA0C1DA11C666C5A003B984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA0C1DA21C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerreraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C1DA31C666C5A003B984A /* Debug */,
+				FA0C1DA41C666C5A003B984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA0C1DA51C666C5A003B984A /* Build configuration list for PBXNativeTarget "MIRetoRaulHerreraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C1DA61C666C5A003B984A /* Debug */,
+				FA0C1DA71C666C5A003B984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0C1D6F1C666C5A003B984A /* Project object */;
+}
