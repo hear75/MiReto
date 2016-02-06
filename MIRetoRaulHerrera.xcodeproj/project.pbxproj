@@ -47,6 +47,7 @@
 		FA0C1D961C666C5A003B984A /* MIRetoRaulHerreraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIRetoRaulHerreraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0C1D9A1C666C5A003B984A /* MIRetoRaulHerreraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIRetoRaulHerreraUITests.swift; sourceTree = "<group>"; };
 		FA0C1D9C1C666C5A003B984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0C1DAC1C66929D003B984A /* Tarea1Semana2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tarea1Semana2.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		FA0C1D6E1C666C5A003B984A = {
 			isa = PBXGroup;
 			children = (
+				FA0C1DAC1C66929D003B984A /* Tarea1Semana2.playground */,
 				FA0C1D791C666C5A003B984A /* MIRetoRaulHerrera */,
 				FA0C1D8E1C666C5A003B984A /* MIRetoRaulHerreraTests */,
 				FA0C1D991C666C5A003B984A /* MIRetoRaulHerreraUITests */,
